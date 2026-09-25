@@ -1,0 +1,184 @@
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    text-align: center;
+    padding: 30px;
+    background: #222;
+}
+.logo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.portada{
+	width:100%;
+	height:400px;
+	object-fit:cover;
+	border-radius:15px;
+	border:1px solid #333;
+	box-shadow:0 0 20px #00ffff33
+}
+h1 {
+    color: #ff4500;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+section {
+    margin: 30px 0;
+}
+.info {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tarjeta {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+.tarjeta-destacada {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ff4500;
+    text-align: center;
+}
+.badge {
+    color: #ff4500;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+.img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.img:hover {
+    opacity: 0.8;
+}
+.precio {
+	color: #00ffff;
+	font-weight: bold;
+}
+select, input, button {
+	padding: 10px;
+	margin: 5px 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+button {
+	background: #ff4500;
+	color: white;
+	border: 0;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#pedido {
+	background: #222;
+	padding: 20px;
+	border-radius: 10px;
+}
+.item {
+	background: #333;
+	padding: 10px;
+	margin: 5px 0;
+}
+.total {
+	color: #00ffff;
+	font-size: 20px;
+	text-align: right;
+}
+footer {
+	text-align: center;
+	background: #222;
+	padding: 25px;
+	margin-top: 30px;
+}
+video {
+	width: 100%;
+	max-height: 500px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.form-label {
+    color: #ccc;
+}
+.form-control, .form-select {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #444;
+}
+.form-control:focus, .form-select:focus {
+    background-color: #1a1a1a;
+    color: white;
+    border-color: #ff4500;
+    box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.25);
+}
+.btn-agregar {
+    background: #ff4500;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn-agregar:hover {
+    background: #e03d00;
+    color: white;
+}
+.contacto {
+    margin: 15px 0;
+}
+.contacto p {
+    margin: 4px 0;
+}
+.redes {
+    margin: 20px 0;
+}
+.redes a {
+    color: #00ffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.redes a:hover {
+    text-decoration: underline;
+}
+.empresas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.empresa {
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 180px;
+    text-align: center;
+}
+.empresa h3 {
+    color: #ff4500;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.empresa p {
+    font-size: 13px;
+    color: #ccc;
+}
